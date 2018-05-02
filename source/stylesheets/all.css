@@ -6,6 +6,16 @@ body {
   font-family: sans-serif; }
 
 h1 {
+  font-family: 'Varela Round', sans-serif;
+  background-color: white;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  animation-name: welcome;
+  animation-duration: .9s;
+  }
+
+/*h1 {
   color: rgba(0, 0, 0, .3);
   font-weight: bold;
   font-size: 32px;
@@ -15,6 +25,7 @@ h1 {
 
   padding: 350px 0 10px;
   margin: 0; }
+*/
 
 .doc {
   font-size: 14px;
