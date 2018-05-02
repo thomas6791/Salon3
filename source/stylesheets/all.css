@@ -18,6 +18,18 @@ h1 {
 #text-content {
   height: 100vh;
   }
+.bouton {
+  background-color: #CF2681;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.bouton:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+}
 
 /*h1 {
   color: rgba(0, 0, 0, .3);
