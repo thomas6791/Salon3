@@ -41,6 +41,7 @@ h1 {
   background-position: center;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   margin-bottom: 10px;
+  border-radius: 2px;
 }
 .photo-box img {
   display: block;
@@ -51,6 +52,9 @@ h1 {
 }
 .box-titre {
   font-family: 'Varela Round', sans-serif;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: white;
+  border-radius: 2px;
 }
 
 /*h1 {
