@@ -88,6 +88,16 @@
 .dropdown:hover .dropbtn {
 }
 
+.under-list li {
+  list-style: none;
+}
+.under-list li a {
+  text-decoration: none;
+}
+.under-list li a:hover {
+  background-color: #f5f5f5;
+}
+
 
 /*font-family: 'Nunito', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
