@@ -1,0 +1,22 @@
+.navbar-wagon .logo {
+  height: 110px;
+  width: auto;
+}
+
+.navbar-wagon {
+  padding: 10px 20px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+}
+
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-wagon-right .avatar {
+  margin-left: 20px;
+}
