@@ -1,8 +1,16 @@
 <h1>Gallerie photos</h1>
+<section id="gallerie">
+  <div class="container">
+    <div class="row"></div>
+      <% data.photos.homme.each do |f| %>
+      <div class="col-xs-6 col-lg-3">
+        <div class="photo-box">
+          <%= image_tag f %>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</section>
 
-<ol>
-<% data.photos.homme.each do |f| %>
-  <%= image_tag f, width:"200" %>
 
-  <% end %>
-</ol>
