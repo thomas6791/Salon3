@@ -3,9 +3,61 @@
 body {
   background: #d4d4d4 url("../images/background.png");
   text-align: center;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  }
 
 h1 {
+  font-family: 'Varela Round', sans-serif;
+  background-color: white;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  animation-name: welcome;
+  animation-duration: .9s;
+  }
+#text-content {
+  height: 100vh;
+  }
+.bouton {
+  background-color: #CF2681;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.bouton:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+}
+
+#gallerie {
+  display: flex;
+  padding-top: 10px;
+}
+.photo-box {
+  background-color: white;
+  background-size: cover !important;
+  background-position: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+.photo-box img {
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+}
+.box-titre {
+  font-family: 'Varela Round', sans-serif;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: white;
+  border-radius: 2px;
+}
+
+/*h1 {
   color: rgba(0, 0, 0, .3);
   font-weight: bold;
   font-size: 32px;
@@ -15,6 +67,7 @@ h1 {
 
   padding: 350px 0 10px;
   margin: 0; }
+*/
 
 .doc {
   font-size: 14px;
