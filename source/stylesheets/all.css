@@ -7,14 +7,20 @@ body {
   }
 
 h1 {
-  font-family: 'Varela Round', sans-serif;
+  font-size: 60px;
   background-color: white;
   margin: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
   animation-name: welcome;
   animation-duration: .9s;
+  color: black;
+  /*font-family: 'Satisfy', cursive; */
+  font-family: 'Dancing Script', cursive;
   }
+h2 {
+  font-family: 'Varela Round', sans-serif;
+}
 #text-content {
   height: 100vh;
   }
@@ -24,6 +30,9 @@ h1 {
   padding: 10px 30px;
   border-radius: 3px;
   text-decoration: none;
+  display: block;
+  width: 200px;
+  text-align: center;
 }
 .bouton:hover {
   text-decoration: none;
@@ -31,31 +40,23 @@ h1 {
   opacity: 0.8;
 }
 
-#gallerie {
-  display: flex;
-  padding-top: 10px;
-}
-.photo-box {
-  background-color: white;
+.banner {
+  color: white;
+  text-align: center;
+  height: 60vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
-  background-position: center;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  margin-bottom: 10px;
-  border-radius: 2px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
-.photo-box img {
-  display: block;
-  margin: auto;
-  object-fit: cover;
-  width: 250px;
-  height: 250px;
+.banner h1 {
+  font-size: 60px;
+  width: 100%;
+  color: white;
+  background-color: transparent;
 }
-.box-titre {
-  font-family: 'Varela Round', sans-serif;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  background-color: white;
-  border-radius: 2px;
-}
+
 
 /*h1 {
   color: rgba(0, 0, 0, .3);
@@ -106,3 +107,12 @@ h1 {
     -webkit-transform: scale(1);
   }
 }
+
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Comfortaa', cursive;
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Satisfy', cursive;
+*/
