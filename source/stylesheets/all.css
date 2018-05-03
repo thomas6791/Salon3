@@ -15,6 +15,9 @@ h1 {
   animation-name: welcome;
   animation-duration: .9s;
   }
+h2 {
+  font-family: 'Varela Round', sans-serif;
+}
 #text-content {
   height: 100vh;
   }
