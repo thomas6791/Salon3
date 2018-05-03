@@ -7,14 +7,16 @@ body {
   }
 
 h1 {
-  font-family: 'Varela Round', sans-serif;
-  background-color: white;
+  font-size: 60px;
+  /* background-color: white; */
   margin: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
   animation-name: welcome;
   animation-duration: .9s;
-  color: black;
+  color: white;
+  font-family: 'Satisfy', cursive;
+  font-family: 'Dancing Script', cursive;
   }
 h2 {
   font-family: 'Varela Round', sans-serif;
@@ -99,3 +101,12 @@ h2 {
     -webkit-transform: scale(1);
   }
 }
+
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Comfortaa', cursive;
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Satisfy', cursive;
+*/
