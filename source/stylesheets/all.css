@@ -8,14 +8,14 @@ body {
 
 h1 {
   font-size: 60px;
-  /* background-color: white; */
+  background-color: white;
   margin: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
   animation-name: welcome;
   animation-duration: .9s;
-  color: white;
-  font-family: 'Satisfy', cursive;
+  color: black;
+  /*font-family: 'Satisfy', cursive; */
   font-family: 'Dancing Script', cursive;
   }
 h2 {
@@ -48,7 +48,10 @@ h2 {
   justify-content: center;
 }
 .banner h1 {
+  font-size: 60px;
   width: 100%;
+  color: white;
+  background-color: transparent;
 }
 
 
