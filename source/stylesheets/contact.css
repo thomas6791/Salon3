@@ -1,0 +1,47 @@
+.contact {
+  padding: 0px 10px;
+}
+.contact form {
+  margin-top: 40px;
+}
+.contact form label {
+  display: block;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact input, select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: solid 1px whitesmoke;
+}
+.contact input:focus {outline:none;}
+.contact select:focus {outline:none;}
+.contact textarea:focus {outline:none;}
+
+.contact select {
+  height: 50px;
+}
+.contact textarea {
+  border-radius: 3px;
+  border: solid 1px whitesmoke;
+}
+.contact .bouton-contact {
+  background-color: #CF2681;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  height: 50px;
+  border: solid 1px #CF2681;
+}
+
+.bouton-contact:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+}
