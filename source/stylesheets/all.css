@@ -31,31 +31,7 @@ h1 {
   opacity: 0.8;
 }
 
-#gallerie {
-  display: flex;
-  padding-top: 10px;
-}
-.photo-box {
-  background-color: white;
-  background-size: cover !important;
-  background-position: center;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  margin-bottom: 10px;
-  border-radius: 2px;
-}
-.photo-box img {
-  display: block;
-  margin: auto;
-  object-fit: cover;
-  width: 250px;
-  height: 250px;
-}
-.box-titre {
-  font-family: 'Varela Round', sans-serif;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  background-color: white;
-  border-radius: 2px;
-}
+
 
 /*h1 {
   color: rgba(0, 0, 0, .3);
