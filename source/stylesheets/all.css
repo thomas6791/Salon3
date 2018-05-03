@@ -30,6 +30,9 @@ h2 {
   padding: 10px 30px;
   border-radius: 3px;
   text-decoration: none;
+  display: block;
+  width: 200px;
+  text-align: center;
 }
 .bouton:hover {
   text-decoration: none;
