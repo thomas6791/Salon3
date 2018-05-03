@@ -9,6 +9,7 @@
               method="POST">
             <div class="row">
               <label for="pays">Informations Générales*</label>
+              <input type="hidden" name="_subject" value="Nouvelle demande" />
               <input type="text" name="nom" placeholder="Nom de famille" class="col-xs-12 col-md-6">
               <input type="text" name="prenom" placeholder="Prenom" class="col-xs-12 col-md-6">
             </div>
@@ -22,8 +23,10 @@
                <option value="femme">Coupe Femme</option>
                <option value="homme">Coupe Homme</option>
                <option value="barbe">Taille de barbe</option>
+               <option value="autre">Autre</option>
              </select>
             <textarea placeholder="Votre message..." name="textarea" class="col-xs-12" rows="10"></textarea>
+            <input type="text" name="_gotcha" style="display:none" />
             <input type="submit" value="Envoyer" class="bouton-contact col-xs-12">
             </div>
         </form>
