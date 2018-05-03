@@ -73,6 +73,7 @@ end
 
 activate:deploy do |deploy|
   deploy.method = :git
-  deploy.branch = 'master'
   deploy.build_before = true
+  deploy.branch   = "master"
+  deploy.remote   = "git@github.com:thomas6791/thomas6791.github.io.gi"
 end
