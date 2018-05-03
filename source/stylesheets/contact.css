@@ -17,9 +17,12 @@
   border-radius: 3px;
   border: solid 1px whitesmoke;
 }
+.contact input:focus {outline:none;}
+.contact select:focus {outline:none;}
+.contact textarea:focus {outline:none;}
+
 .contact select {
   height: 50px;
-
 }
 .contact textarea {
   border-radius: 3px;
